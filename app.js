@@ -25,4 +25,6 @@ function limpiarCampo() {
     valorCampo.value = '';
 }
 
-//Cambios dia 06/02/25
+//Cambios dia 06/02/25 
+// 
+// Prueba
