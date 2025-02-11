@@ -36,12 +36,17 @@ function actualizarLista() {
     }
 }
 
-function sortearAmigo(){
+function validarArreglo(){
     if(amigos.length !== 0) { 
         console.log('no está vacío')
     } 
 }
 
-function seleccionIndiceAleatorio() {
+function sortearAmigo() {
     let amigoAleatorio = Math.floor(Math.random()*amigos.length);
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = `Tu amigo secreto es:  ${amigoAleatorio}`;
+    return amigoAleatorio;
 }
+
+sortearAmigo();
