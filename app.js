@@ -12,11 +12,10 @@ function agregarAmigo () {
     //Valido el usuario ingreso nombres
     } else {
         amigos.push(nombre);
-        actualizarLista();
     }
+
+    actualizarLista();
     limpiarCampo();
-    sortearAmigo();
-    return;
 }
 
 //Limpiar el campo de nombre cada vez que ingrese uno nuevo
@@ -36,17 +35,15 @@ function actualizarLista() {
     }
 }
 
-function validarArreglo(){
-    if(amigos.length !== 0) { 
-        console.log('no está vacío')
-    } 
-}
-
 function sortearAmigo() {
-    let amigoAleatorio = Math.floor(Math.random()*amigos.length);
-    let resultado = document.getElementById('resultado');
-    resultado.innerHTML = `Tu amigo secreto es:  ${amigoAleatorio}`;
-    return amigoAleatorio;
+    if (amigos.length === 0) {
+        document.getElementById("resultado").innerHTML = "No hay amigos para sortear.";
+        return;
+    }
+    const sorteo =  Math.floor(Math.random()*amigos.length);
+    let sorteoAmigo = amigos[sorteo];
+    console.log(sorteoAmigo);
+    document.getElementById("resultado").innerHTML = `El amigo sorteado es: ${sorteoAmigo}`;
 }
 
-sortearAmigo();
+document.getElementById("sortearBtn").addEventListener("click", sortearAmigo);
