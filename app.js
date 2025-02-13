@@ -44,6 +44,8 @@ function sortearAmigo() {
     let sorteoAmigo = amigos[sorteo];
     console.log(sorteoAmigo);
     document.getElementById("resultado").innerHTML = `El amigo sorteado es: ${sorteoAmigo}`;
+    document.getElementById("listaAmigos").style.display = "none";
 }
 
 document.getElementById("sortearBtn").addEventListener("click", sortearAmigo);
+
