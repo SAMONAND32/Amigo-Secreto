@@ -1,7 +1,7 @@
 <h1 align="center"> Amigo Secreto
   <br />
   <br />
-  <img src="https://github.com/SAMONAND32/Amigo-Secreto/blob/main/assets/portada.png" alt="">
+  <img src="https://github.com/SAMONAND32/Amigo-Secreto/blob/main/assets/portada.png" alt="https://samonand32.github.io/Amigo-Secreto/">
 </h1>
 
 ## Introduccion
@@ -11,7 +11,7 @@ y se van mostrando los nombre que agregas y una ves introducidos los nombres des
 
 ## :computer: Funcionalidades
 
-🟢¿ Quiéres jugar ? inicia aquí:  <a href="https://24kuant.github.io/challenge-amigo-secreto/"> Amigo Secreto </a>
+🟢¿ Quiéres jugar ? inicia aquí:  <a href="https://samonand32.github.io/Amigo-Secreto/"> Amigo Secreto </a>
   
 > Paso 1. Teclea uno a uno los nombres de tus amigos que participarán en el amigo secreto. Con el bóton <b>Añadir</b> se agregarán a la lista de amigos. Conforme agregues nuevos amigos la lista se actualizará.
   <h1 align="center"> Paso 1
